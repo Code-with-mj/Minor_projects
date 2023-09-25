@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgb(243, 244, 238);
+  background-color: rebeccapurple;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
@@ -17,8 +17,8 @@ body {
 }
 
 .btn {
-  background-color: #ed0c0c;
-  color: rgb(154, 240, 5);
+  background-color: #fff;
+  color: rebeccapurple;
   font-family: inherit;
   font-weight: bold;
   padding: 1rem;
@@ -45,7 +45,7 @@ body {
 }
 
 .toast {
-  background-color: #3fe104;
+  background-color: #fff;
   border-radius: 5px;
   padding: 1rem 2rem;
   margin: 0.5rem;
