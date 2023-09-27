@@ -22,3 +22,15 @@ const resetInterval = () => {
 };
 
 let interval = setInterval(run, 2000);
+
+rightButton.addEventListener("click", () => {
+    index++;
+    changeImage();
+    resetInterval();
+});
+
+leftButton.addEventListener("click", () => {
+    index--;
+    changeImage();
+    resetInterval();
+});
