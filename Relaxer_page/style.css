@@ -15,7 +15,7 @@
 }
 
 body {
-    background: var(--background-color) url('https://images.unsplash.com/photo-1559627707-b2d6c5810df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fGNsZWFuJTIwd2F0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60') no-repeat center center/cover;
+    background: var(--background-color) url('https://plus.unsplash.com/premium_photo-1687308458882-66dc00c17aaf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJlbGF4ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60') no-repeat center center/cover;
     color: var(--light-color);
     font-family: "Montserrat", sans-serif;
     display: flex;
