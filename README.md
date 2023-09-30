@@ -28,9 +28,22 @@ location of the files :
     
 ## Projects:
 
-### 1. Expanding the cards
-### 2. Form wave animation
-### 3. Event keycodes
+### 1. 3D background boxes
+### 2. Double vertical slider
+### 3. Drum kit
+### 4. Event keycodes
+### 5. Expanding cards
+### 6. FAQ collapse
+### 7. Form wave animation
+### 8. Hidden search widget
+### 9. Image carousel
+### 10. Incrementing counter
+### 11. Relaxer page
+### 12. Rotating navigation
+### 13. Sticky navbar
+### 14. Text to speech convertor
+### 15. Toast notifications
+
 
 
 
