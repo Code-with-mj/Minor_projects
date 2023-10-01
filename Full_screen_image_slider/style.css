@@ -1,23 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 
 }
+
 body {
     font-family: 'Cabin', sans-serif;
     background-color: #362a2b;
     color: #e5ebf3;
 }
-.slider{
+
+.slider {
     position: relative;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
 
-.slide{
+.slide {
     position: absolute;
     top: 0;
     left: 0;
@@ -27,10 +30,11 @@ body {
     transition: opacity 0.4s ease-in-out;
 }
 
-.slide.current{
+.slide.current {
     opacity: 1;
 }
-.slide .content{
+
+.slide .content {
     position: absolute;
     bottom: -300px;
     left: 0;
@@ -41,12 +45,14 @@ body {
     padding: 1rem;
     line-height: 1.3;
 }
-.slide .content h1{
+
+.slide .content h1 {
     margin-bottom: 0.625rem;
     color: #362a2b;
     font-size: 1.5rem;
 
 }
+
 .slide.current .content {
     opacity: 1;
     transform: translateY(-300px);
@@ -56,18 +62,23 @@ body {
 .slide:first-child {
     background: url("https://source.unsplash.com/vTL_qy03D1I/1600x900") no-repeat center top/cover;
 }
+
 .slide:nth-child(2) {
     background: url("https://source.unsplash.com/n19qtMX3nNY/1600x900") no-repeat center top/cover;
 }
+
 .slide:nth-child(3) {
     background: url("https://source.unsplash.com/_7LbC5J-jw4/1600x900") no-repeat center top/cover;
 }
+
 .slide:nth-child(4) {
     background: url("https://source.unsplash.com/_KaMTEmJnxY/1600x900") no-repeat center top/cover;
 }
+
 .slide:nth-child(5) {
     background: url("https://source.unsplash.com/3mGnYRUNIck/1600x900") no-repeat center top/cover;
 }
+
 .slide:nth-child(6) {
     background: url("https://source.unsplash.com/cxnkcRnwS7M/1600x900") no-repeat center center/cover;
 }
@@ -76,15 +87,15 @@ body {
     position: absolute;
     top: 50%;
     left: 1rem;
-  }
-  
-  .buttons button#next {
+}
+
+.buttons button#next {
     position: absolute;
     top: 50%;
     right: 1rem;
-  }
-  
-  .buttons button {
+}
+
+.buttons button {
     border: 2px solid #e5ebf3;
     background-color: transparent;
     color: #e5ebf3;
@@ -92,9 +103,27 @@ body {
     padding: 13px 15px;
     border-radius: 50%;
     outline: none;
-  }
-  
-  .buttons button:hover {
+}
+
+.buttons button:hover {
     background-color: #e5ebf3;
     color: #362a2b;
-  }
+}
+
+@media (min-width: 640px) and (min-height: 640px) {
+    .slide .content {
+        bottom: 70px;
+        left: -600px;
+        width: 600px;
+        padding: 2rem;
+        line-height: 1.6;
+    }
+
+    .slide .content h1 {
+        font-size: 2rem;
+    }
+
+    .slide.current .content {
+        transform: translateX(600px);
+    }
+}
