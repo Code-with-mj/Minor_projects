@@ -43,6 +43,7 @@ location of the files :
 ### 13. Sticky navbar
 ### 14. Text to speech convertor
 ### 15. Toast notifications
+### 16. Full screen image slider
 
 
 
