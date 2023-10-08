@@ -45,6 +45,7 @@ location of the files :
 ### 15. Toast notifications
 ### 16. Full screen image slider
 ### 17. Hoverboard
+### 18. Split landing page
 
 
 
