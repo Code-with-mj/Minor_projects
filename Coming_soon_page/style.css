@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
 :root {
     --gradient: linear-gradient(90deg, #7f7fd5, #86a8e7, #f64f59);
 }
@@ -23,16 +24,18 @@ body {
     background-image: var(--gradient);
     animation: bg-animation 20s infinite alternate;
 }
+
 @keyframes bg-animation {
     0% {
-      background-position: left;
+        background-position: left;
     }
+
     100% {
-      background-position: right;
+        background-position: right;
     }
-  }
-  
-  .container {
+}
+
+.container {
     background: #fff;
     width: 70vw;
     padding: 3rem;
@@ -41,9 +44,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-  .title {
+}
+
+.title {
     margin: 1rem;
     padding: 1rem;
     text-align: center;
@@ -60,13 +63,13 @@ body {
     -webkit-text-fill-color: transparent;
     background-size: 300%;
     transition: background-position 1s;
-  }
-  
-  .title:hover {
+}
+
+.title:hover {
     background-position: right;
-  }
-  
-  .btn {
+}
+
+.btn {
     color: #fff;
     font: inherit;
     border: 0;
@@ -76,8 +79,8 @@ body {
     background-size: 300%;
     background-position: left;
     transition: background-position 350ms;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background-position: right;
-  }
+}
