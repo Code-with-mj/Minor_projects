@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+:root {
+    --gradient: linear-gradient(90deg, #7f7fd5, #86a8e7, #f64f59);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    font-size: 1.125em;
+    line-height: 1.6;
+    background: #7f7fd5;
+    background-size: 300%;
+    background-image: var(--gradient);
+    animation: bg-animation 20s infinite alternate;
+}
