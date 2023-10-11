@@ -46,6 +46,7 @@ location of the files :
 ### 16. Full screen image slider
 ### 17. Hoverboard
 ### 18. Split landing page
+### 19. Coming soon page
 
 
 
