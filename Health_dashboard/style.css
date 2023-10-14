@@ -57,3 +57,26 @@ p {
     transform: scale(0.98);
 }
 
+.bg1 {
+    background-image: url("https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    text-shadow: 1px 1px 2px var(--main-color);
+}
+
+.bg2 {
+    background: var(--text-color) url("https://images.unsplash.com/photo-1575052814086-f385e2e2ad1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    color: var(--dark-text-color);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.container>div:first-of-type,
+.container>div:nth-of-type(6),
+.container>div:nth-of-type(9),
+.container>div:nth-of-type(10) {
+    grid-column: span 2;
+}
+
+@media (min-width: 768px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
