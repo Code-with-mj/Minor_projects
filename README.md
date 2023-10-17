@@ -48,6 +48,7 @@ location of the files :
 ### 18. Split landing page
 ### 19. Coming soon page
 ### 20. Health dashboard
+### 21. Blurry loading
 
 
 
