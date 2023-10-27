@@ -49,6 +49,7 @@ location of the files :
 ### 19. Coming soon page
 ### 20. Health dashboard
 ### 21. Blurry loading
+### 22. Testimonials box switcher
 
 
 
