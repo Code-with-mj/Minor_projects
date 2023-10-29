@@ -50,6 +50,7 @@ location of the files :
 ### 20. Health dashboard
 ### 21. Blurry loading
 ### 22. Testimonials box switcher
+### 23. Promo Code
 
 
 
