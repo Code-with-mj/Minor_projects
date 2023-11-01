@@ -51,6 +51,7 @@ location of the files :
 ### 21. Blurry loading
 ### 22. Testimonials box switcher
 ### 23. Promo Code
+### 24. Random Image Generator
 
 
 
