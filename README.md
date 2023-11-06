@@ -52,6 +52,7 @@ location of the files :
 ### 22. Testimonials box switcher
 ### 23. Promo Code
 ### 24. Random Image Generator
+### 25. Feedback UI design
 
 
 
